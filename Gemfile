@@ -55,6 +55,7 @@ end
 
 group :development do
   gem 'devise', '~> 4.8', '>= 4.8.1'
+  gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 

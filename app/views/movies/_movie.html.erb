@@ -1,4 +1,7 @@
 <div id="<%= dom_id movie %>">
+
+ <%= image_tag(movie.image, style:"width:400px; height:600px") %>
+
   <p>
     <strong>Title:</strong>
     <%= movie.title %>
@@ -18,7 +21,5 @@
     <strong>Category:</strong>
     <%= movie.category %>
   </p>
-
-  <%= image_tag(movie.image, style:"width:400px; height:400px") %>
 
 </div>
