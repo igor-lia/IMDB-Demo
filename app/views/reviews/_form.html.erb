@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div>
+  <div class="field">
     <%= form.label :rating, style: "display: block" %>
     <%= form.number_field :rating %>
   </div>
 
-  <div>
+  <div class="field">
     <%= form.label :comment, style: "display: block" %>
     <%= form.text_area :comment %>
   </div>
 
-  <div>
+  <div class="actions">
     <%= form.submit %>
   </div>
 <% end %>
